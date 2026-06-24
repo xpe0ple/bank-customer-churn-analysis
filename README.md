@@ -94,13 +94,12 @@ Built an interactive dashboard containing:
 ```text
 Analysis-Bank-Churn/
 │
-├── data/
-├── excel/
-├── sql/
-├── notebook/
-├── powerbi/
-├── images/
-│   └── dashboard.png
+├── Data/
+├── SQL/
+├── Notebook/
+├── PowerBI/
+├── Dashboard/
+│   └── dashboard.jpeg
 │
 └── README.md
 ```
