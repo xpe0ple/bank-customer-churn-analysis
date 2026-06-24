@@ -87,10 +87,19 @@ AVG(CAST(current_month_debit AS float)) AS AvgDebit
 FROM BankCustomerChurn
 GROUP BY churn;
 
-
-
-
-
+SELECT
+    CASE
+        WHEN last_transaction IS NULL THEN 'No Transaction Data'
+        ELSE 'Has Transaction Data'
+    END AS TransactionStatus,
+    COUNT(*) AS TotalCustomer,
+    SUM(churn) AS TotalChurn
+FROM BankCustomerChurn
+GROUP BY
+    CASE
+        WHEN last_transaction IS NULL THEN 'No Transaction Data'
+        ELSE 'Has Transaction Data'
+    END;
 
 
 
