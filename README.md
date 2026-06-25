@@ -17,7 +17,7 @@ Customer churn is one of the biggest challenges in the banking industry because 
 Customer attrition directly impacts bank profitability.
 Understanding which customer segments are more likely to churn helps businesses design targeted retention strategies and improve customer lifetime value.
 
---
+---
 
 Dataset
 
@@ -30,7 +30,7 @@ Columns : 18
 Target Variable :
 Churn (0 = Retained, 1 = Churn)
 
---
+---
 
 ## 🎯 Objectives
 
@@ -133,8 +133,7 @@ As **medium net worth customers** account for the largest churn segment, targete
 
 Integrate customer demographic, financial, and behavioral indicators into a real-time monitoring dashboard. This enables the bank to identify customers with high churn risk early and take proactive retention actions before they leave.
 
-
---
+---
 
 ## 📁 Repository Structure
 
