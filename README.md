@@ -8,9 +8,29 @@
 
 ![Bank Churn Dashboard](Dashboard/Dashboard.jpeg)
 
-This project analyzes customer churn behavior in the banking sector using Excel, SQL, Python, and Power BI. The objective is to identify customer segments with higher churn risk and uncover key factors associated with customer attrition.
+Customer churn is one of the biggest challenges in the banking industry because retaining existing customers is significantly more cost-effective than acquiring new ones. This project analyzes customer behavior using SQL, Python, and Power BI to identify the key characteristics of customers who are most likely to leave the bank and provide actionable business recommendations.
 
 ---
+
+## Business Problem
+
+Customer attrition directly impacts bank profitability.
+Understanding which customer segments are more likely to churn helps businesses design targeted retention strategies and improve customer lifetime value.
+
+--
+
+Dataset
+
+Source : Kaggle
+
+Records : 28,000
+
+Columns : 18
+
+Target Variable :
+Churn (0 = Retained, 1 = Churn)
+
+--
 
 ## 🎯 Objectives
 
@@ -88,6 +108,33 @@ Built an interactive dashboard containing:
 - **Medium net worth customers** represented the largest churn segment.
 
 ---
+
+## 💡 Business Recommendations
+
+Based on the analysis, the following strategies are recommended to reduce customer churn:
+
+### 1. Target High-Risk Age Groups
+
+Develop personalized retention campaigns for customers aged **31–45**, as this segment represents the highest number of churn cases. Promotional offers, financial planning services, and loyalty rewards can help improve customer retention.
+
+### 2. Enhance Services for Self-Employed Customers
+
+Since **self-employed customers** show the highest churn volume, the bank should introduce products tailored to their financial needs, such as flexible loan options, business banking services, and personalized financial consultations.
+
+### 3. Increase Engagement with Low-Balance Customers
+
+Customers who churn tend to maintain **lower account balances**. The bank can encourage higher account activity through cashback programs, savings incentives, and personalized promotions to strengthen customer engagement.
+
+### 4. Strengthen Retention for Medium Net Worth Customers
+
+As **medium net worth customers** account for the largest churn segment, targeted relationship management and exclusive banking benefits should be implemented to improve customer satisfaction and long-term loyalty.
+
+### 5. Implement a Churn Monitoring Dashboard
+
+Integrate customer demographic, financial, and behavioral indicators into a real-time monitoring dashboard. This enables the bank to identify customers with high churn risk early and take proactive retention actions before they leave.
+
+
+--
 
 ## 📁 Repository Structure
 
